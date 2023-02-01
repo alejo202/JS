@@ -1,0 +1,237 @@
+/*--5 Para darle un color de fondo al body*/
+body{
+	background: #1d4ea3;
+}
+
+/*Para darle estilos a un ID en este caso se llama "container"*/
+#container{
+	text-align: center; /*Para alinear elementos*/
+}
+
+/*Para darle estilos a un ID en este caso se llama "imagen"*/
+#imagen{
+	width: 400px; /*Para darle un ancho al div*/
+	transition: width 4s, border-radius 1s; /*Para generar una transcion al width y border-radius*/
+}
+
+/*Para darle estilos a un ID en este caso se llama "imagen" pero cuando se le pase el mouse por encima*/
+#imagen:hover{
+	border-radius: 50%; /*Para generar bordes redondos al div*/
+	width: 600px; /*Para darle un ancho al div de cambio*/
+}
+
+
+
+
+
+
+/*--4 Para darle un color de fondo al body*/
+body{
+	background-color: #222;
+}
+/*Para darle estilos a un ID en este caso se llama "container"*/
+#container{
+	width: 1270px; /Para darle un ancho al div/
+	margin: 0 auto; /Para darle una margen automatica al div/
+}
+
+/* Para darle estilos a un div con una clase*/
+.transf{
+	background-color: black; /Para darle color al fondo/
+	box-sizing: border-box; /Ajusta el contenido al cajon/
+	display: inline-block; /no agrega un salto de línea después del elemento, por lo que el elemento puede ubicarse junto a otros elementos./
+	vertical-align: top; /La alineacion de los elemento hacia abajo/
+	margin: 10px; /Para darle una margen al div/
+	height: 400px; /Para darle una altura al div/
+	width: 400px; /Para darle un ancho al div/
+}
+
+/* Para darle estilos a un div con un ID*/
+#capa02{
+	font-size: 72px; /Para darle tamaño a la tipografía/
+	color: white; /Para darle color a la tipografía/
+	padding: 140px 0; /Para darle espaciado entre eleemntos del div/
+	text-align: center; / Para alinear el texto/
+}
+
+/* Para darle estilos a un div con un ID*/
+#capa03{
+	background: linear-gradient(#46d6e0, #4658e0); /Para generar un degradado lineale en el fondo/
+}
+
+/* Para darle estilos a un div con un ID*/
+#capa04{
+	background-color: #ff7300; /Para darle color al fondo/
+	padding: 20px; /Para darle un espaciado entre elementos del div/
+}
+
+#capa01,#capa02, #capa03,#capa04,#capa05,#capa06{
+transition: all 1s;
+} /*Para generarle una transicion a los divs con un ID*/
+
+/*Para darle estilos a un div pero cuando se pasa el mouse encima de él*/
+#capa01:hover{
+	transform: translate(-50px, 600px); /*Mover de lugar los elementos de este div*/
+}
+
+/*Para darle estilos a un div pero cuando se pasa el mouse encima de él*/
+#capa02:hover{transform: rotate(-180deg); /*rotar los elementos de este div*/
+}
+
+/*Para darle estilos a un div pero cuando se pasa el mouse encima de él*/
+#capa03:hover{
+	transform: skewX(50deg); /*Para sesgar los elementos del div en el eje X*/
+}
+
+/*Para darle estilos a un div pero cuando se pasa el mouse encima de él*/
+#capa04:hover{
+	transform: skewY(-30deg);/*Para sesgar los elementos del div en el eje Y*/
+}
+
+/*Para darle estilos a un div pero cuando se pasa el mouse encima de él*/
+#capa05:hover{
+	transform: scale(2,5); /*Para aumentar o disminuir de tamaño los elementos del div*/
+}
+
+/*Para darle estilos a un div pero cuando se pasa el mouse encima de él*/
+#capa06:hover{
+	transform: matrix(2,20,0,2,100,200); /define una matriz de transformación 2D homogénea/
+}
+
+
+
+
+
+
+
+
+
+/*--3 Para darle un color de fondo al body
+body{
+	background-color: #ddd;
+}*/
+/*Para darle estilos a un ID en este caso se llama "container"*/
+/*#container{
+	/*background-color: white; /*Para ponerle un color al fondo*/
+	/*/*margin: 0 auto; /* Para darle una margen al ID*/
+	/*width: 800px; /*Para darle un ancho al ID*/
+	/*padding: 20px; /*Para darle un espaciado de los eleemntos del ID*/
+/*}*/
+
+/*Etiqueta de articulo*/
+/*article{
+	/*padding: 20px; /*Espaciado entre elementos*/
+	/*column-count: 3; /*Numero de columnas*/
+	/*/*column-gap: 20px; /*Ancho de la columna*/
+	/*column-rule: dotted 4px #ccc; /*Tipo, tamaño y color del separador de las columnas*/
+/*}*/
+
+
+
+
+
+
+/* 2-- Para darle estilos a un ID en este caso se llama "container"*/
+/*#container{
+	background: url(foto.png); /*Para poner una imagen de fondo*/
+	/*border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; /*Para convertir los bordes del elemento redondos*/
+	/*width: 400px; /*Para darle un ancho al elemento*/
+	/*height: 400px; /*Para darle un alto al elemento*/
+	/*margin: 0 auto; /*Para darle una margen automatica al elemento*/
+	/*transition: all 1s; /* Para cambiar el elemento en un tiempo determinado*/
+/*}*/
+
+/*Para darle estilos a un ID cuando se pasa el mouse encima de este (hover), en este caso se llama "container"*/
+/*#container:hover{
+	border-radius: 44% 56% 87% 13% / 68% 86% 14% 32%; /* En este casi se cambiara el border radius cuando se pase el mouse encima*/
+/*}
+*/
+
+
+
+
+
+
+/* 1--- body{
+	background-color: #0d1c36;
+}*/ /*Le da un color de fondo al body*/
+
+
+
+/* @keyframes es para crear animaciones con frames en este caso se llama "rotacion"*/
+/* "from" es el estado inicial y "to" es el cambio a llegar*/
+/*@keyframes rotacion{
+	from{transform: rotateZ(0deg);}
+
+	to{ transform: rotateZ(360deg);}
+}*/
+
+/* @keyframes es para crear animaciones con frames en este caso se llama "traslacion"*/
+/*Se pone los porcentajes para indicar que cambio pasa en estos.*/
+/*El z-index es para indicar el orden de un elemento, si esta al frente o detras*/
+
+/*@keyframes traslacion{
+	0%{z-index: 1;}
+	25%{left: 950px;}
+	50%{left: 1900px;}
+	51%{z-index: -1;}
+	75%{left: 940px;}
+	100%{left: 0; z-index: -1;}
+}*/
+
+/* @keyframes es para crear animaciones con frames en este caso se llama "sombra*/
+/*Se pone los porcentajes para indicar que cambio pasa en estos.*/
+/*opacity es para aumentar o disminiur la opacidad de un objeto*/
+/*@keyframes sombra{
+	0%{opacity: 1;}
+	16%{opacity: 0;}
+	20%{opacity: 0;}
+	75%{opacity: 1;}
+	80%{opacity: 0}
+	85%{opacity: 0}
+	100%{opacity: 1;}
+}
+*/
+
+
+/*#sol{
+	position: absolute; /*Que posición estara el elemento*/
+	/*margin-left: auto; /*Margen de la izquierda*/
+	/*margin-right: auto; /*margen de la derecha*/
+	/*left: 0; /*Posición hacia la izquierda*/
+	/*right: 0; /*Possición hacia la derecha*/
+	/*top: 200px; /*Posición hacia abajo*/
+	/*width: 400px; /*Ancho de elemento*/
+	/*height: 400px; /*Altura de elemento*/
+	/*animation-name: rotacion; /*Invocar animación en este caso "rotacion"*/
+	/*animation-duration: 30s; /*Duracion de la animación*/
+	/*animation-iteration-count: infinite; /*Que sea infinita la animación*/
+	/*animation-timing-function: linear; /*especifica cómo una animación CSS debe avanzar sobre la duración de cada ciclo*/
+/*}
+*/
+
+/*#tierra{
+	/*background-color: black; /*Le da un color de fondo al div con ID "tierra"*/
+	/*border-radius: 50%; /*Genrar bordes redondos al elemento*/
+	/*position: absolute; /*Que posición estara el elemento*/
+	/*margin-left: auto; /*Margen de la izquierda*/
+	/*margin-right: auto; /*margen de la derecha*/
+	/*padding: 0; /*Indica el espapcio entre un elemento y otro*/
+	/*left: 0; /*Posición hacia la izquierda*/
+	/*top: 400px; /*Posición hacia abajo*/
+	/*/*width: 40px; /*Ancho de elemento*/
+	/*height: 40px; /*Altura de elemento*/
+	/*z-index: 1; /*El z-index es para indicar el orden de un elemento, si esta al frente o detras*/
+	/*animation-name: traslacion; /*Invocar animación en este caso "traslacion"*/
+	/*animation-duration: 20s; /*Duracion de la animación*/
+	/*animation-timing-function: linear; /*especifica cómo una animación CSS debe avanzar sobre la duración de cada ciclo*/
+	/*animation-iteration-count: infinite;/*Que sea infinita la animación*/
+/*} 
+*/
+
+/*#img-tierra{
+	/*animation-name: sombra; /*Invocar animación en este caso "sombra"*/
+	/*animation-duration: 20s; /*Duracion de la animación*/
+	/*animation-timing-function: linear; /*especifica cómo una animación CSS debe avanzar sobre la duración de cada ciclo*/
+/*} 
+*/
